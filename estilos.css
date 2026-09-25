@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+@font-face {
+  font-family: 'la_negrita';
+  src: url('la_negrita/LaNegrita.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h2{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(29, 200, 191);
+    text-shadow: 5px 5px 0px rgb(23, 168, 137);
+    font-family: 'la_negrita', sans-serif;
+}
+
+a{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(9, 9, 9);
+   color: white;
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(114, 255, 250) groove 5px;
+   border-radius: 0px 50px 50px 0px;
+   box-shadow: 0px 0px 5px rgb(18, 39, 227);
+   font-family: 'la_negrita', sans-serif;
+   
+
+
+}
+
+a:hover{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(26, 86, 206);
+   color: white;
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(54, 4, 160) groove 5px;
+   border-radius: 0px 50px 50px 0px;
+   box-shadow: 0px 0px 5px rgb(30, 14, 66);
+   font-family: 'la_negrita', sans-serif;
+   transition: 1s ease all;
+   transform: scale(1.1);
+   
+
+
+}
