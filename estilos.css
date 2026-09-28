@@ -9,6 +9,31 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'alphaletras';
+  src: url('alphaletras/alphaletras.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'letrashit';
+  src: url('letrashit/Letrashit-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'minecrafter';
+  src: url('minecrafter/Minecrafter.Reg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'avengeance';
+  src: url('avengeance/AVENGEANCE HEROIC AVENGER.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 h2{
     text-align: center;
     font-size: 100px;
@@ -17,7 +42,7 @@ h2{
     font-family: 'la_negrita', sans-serif;
 }
 
-a{
+#boton1{
    display: block;
    text-align: center;
    text-decoration: none;
@@ -37,7 +62,7 @@ a{
 
 }
 
-a:hover{
+#boton1:hover{
    display: block;
    text-align: center;
    text-decoration: none;
@@ -54,6 +79,170 @@ a:hover{
    font-family: 'la_negrita', sans-serif;
    transition: 1s ease all;
    transform: scale(1.1);
+   
+
+
+}
+#boton2{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(235, 18, 18);
+   color: rgb(253, 253, 253);
+   width: 300px;
+   height: 25px;
+   font-size: 20px;
+   margin: 20px auto;
+   padding: 50px;
+   border:rgb(246, 0, 57) groove 5px;
+   border-radius: 10px 10px 10px 10px;
+   box-shadow: 50px 50px 5px rgb(39, 3, 5);
+   font-family: 'alphaletras', cursive;
+   
+
+
+}
+
+#boton2:hover{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(182, 103, 103);
+   color: rgb(255, 255, 255);
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(249, 242, 242) groove 5px;
+   border-radius: 0px 50px 50px 0px;
+   box-shadow: 0px 0px 5px rgb(212, 114, 114);
+   font-family: 'alphaletras', cursive;
+   transition: 1s ease all;
+   transform: scale(1.1);
+   
+
+
+}
+#boton3{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(255, 255, 255);
+   color: black;
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(247, 243, 7) groove 5px;
+   border-radius: 0px 50px 50px 0px;
+   box-shadow: 5px 5px 5px rgb(248, 80, 2);
+  font-family: 'letrashit', sans-serif;
+   
+
+
+}
+
+#boton3:hover{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(123, 158, 6);
+   color: white;
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(213, 103, 6) groove 5px;
+   border-radius: 0px 50px 50px 0px;
+   box-shadow: 0px 0px 5px rgb(88, 8, 8);
+  font-family: 'letrashit', sans-serif;
+   transition: 3s ease all;
+   transform: scale(1.1);
+   
+
+
+}
+#boton4{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(9, 9, 9);
+   color: white;
+   width: 200px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(172, 14, 106) groove 5px;
+   border-radius: 50px 50px 50px 50px;
+   box-shadow: 5px 10px 5px rgb(204, 23, 23);
+   font-family: 'minecrafter', sans-serif;
+   
+
+
+}
+
+#boton4:hover{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(128, 223, 49);
+   color: white;
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(54, 4, 160) groove 5px;
+   border-radius: 0px 0px 0px 0px;
+   box-shadow: 20px 20px 20px rgb(30, 14, 66);
+   font-family: 'minecrafter', sans-serif;
+   transition: 10s ease all;
+   transform: scale(0.9);
+   
+
+
+}
+#boton5{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(207, 36, 36);
+   color: white;
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(218, 40, 40) groove 5px;
+   border-radius: 50px 0px 50px 0px;
+   box-shadow: 100px 100px 100px rgb(50, 70, 246);
+   font-family: 'avengeance', sans-serif;
+   
+
+
+}
+
+#boton5:hover{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   background: rgb(19, 84, 213);
+   color: white;
+   width: 300px;
+   height: 50px;
+   font-size: 30px;
+   margin: 10px auto;
+   padding: 10px;
+   border:rgb(54, 4, 160) groove 5px;
+   border-radius: 100px 50px 100px 50px;
+   box-shadow: 0px 5px 5px rgb(30, 14, 66);
+   font-family: 'avengeance', sans-serif;
+   transition: 2s ease all;
+   transform: scale(2.0);
    
 
 
