@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POSICIONAMIENTO EN CSS</title>
+  <link rel="stylesheet" href="css/practicas.css">
+</head>
+<body>
+
+  <a href="index.html">Regresar</a>
+
+  <center>
+    <h1>POSICIONAMIENTO EN CSS</h1>
+  </center>
+
+  <h1>Práctica 6: Posicionamiento en CSS</h1>
+
+  <div class="seccion">
+    <h2>1. Teoría Básica</h2>
+    <p>La propiedad <b>position</b> define la forma en que un elemento se coloca en la página. Se combina con las propiedades <code>top</code>, <code>bottom</code>, <code>left</code> y <code>right</code>:</p>
+    <ul>
+      <li><b>static:</b> Es el valor por defecto. El elemento sigue el flujo normal del documento.</li>
+      <li><b>relative:</b> Mueve el elemento respecto a su posición original sin afectar a los demás.</li>
+      <li><b>absolute:</b> Posiciona el elemento de forma exacta respecto a su contenedor relativo más cercano.</li>
+      <li><b>fixed:</b> Deja el elemento fijo en la pantalla, incluso al hacer scroll.</li>
+      <li><b>sticky:</b> Alterna entre relativo y fijo según el desplazamiento del usuario.</li>
+    </ul>
+  </div>
+
+  <div class="seccion">
+    <h2>2. Ejemplos Básicos</h2>
+
+    <h3>Ejemplo 1: Posicionamiento Estático (Default)</h3>
+    <p>Elemento en su lugar habitual según el flujo del documento.</p>
+    <div class="pos-static">Posición Static</div>
+
+    <br>
+
+    <h3>Ejemplo 2: Posicionamiento Relativo</h3>
+    <p>Elemento movido 15px hacia abajo y 20px a la derecha desde su sitio original.</p>
+    <div class="pos-relative">Posición Relative</div>
+
+    <br>
+
+    <h3>Ejemplo 3: Posicionamiento Absoluto dentro de un Contenedor Relativo</h3>
+    <p>La caja hija con position absolute se ubica en la esquina superior derecha del contenedor padre.</p>
+    <div class="pos-padre">
+      Contenedor Padre (Relative)
+      <div class="pos-absoluta">Absoluto</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 4: Control de Capas con z-index</h3>
+    <p>Uso de z-index para superponer una caja por encima de otra.</p>
+    <div class="pos-padre">
+      <div class="capa-1">Capa Abajo</div>
+      <div class="capa-2">Capa Arriba (z-index)</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 5: Posicionamiento Fijo (Fixed)</h3>
+    <p>Elemento que se mantiene visible en una esquina de la pantalla.</p>
+    <div class="pos-fixed">Aviso Fijo</div>
+  </div>
+
+  <div class="seccion">
+    <h2>3. Video Explicativo</h2>
+    <video controls width="500">
+      <source src="videos/posicionamiento.mp4" type="video/mp4">
+    
+    </video>
+  </div>
+
+</body>
+</html>

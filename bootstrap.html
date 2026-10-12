@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CÓMO INCLUIR BOOTSTRAP EN HTML</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/practicas.css">
+</head>
+<body>
+
+  <div class="container mt-3">
+    <a href="index.html">Regresar</a>
+
+    <center>
+      <h1>CÓMO INCLUIR BOOTSTRAP EN HTML</h1>
+    </center>
+
+    <h1>Práctica 10: Integración de Bootstrap</h1>
+
+    <div class="seccion">
+      <h2>1. Teoría Básica</h2>
+      <p><b>Bootstrap</b> es el framework CSS más popular para construir sitios web responsivos y modernos rápidamente. Se puede integrar a través de CDN (Content Delivery Network):</p>
+      <ul>
+        <li><b>Etiqueta &lt;link&gt; en &lt;head&gt;:</b> Carga la hoja de estilos CSS de Bootstrap desde un servidor remoto.</li>
+        <li><b>Etiqueta &lt;script&gt; antes de &lt;/body&gt;:</b> Carga el JavaScript de Bootstrap para componentes interactivos (módulos, desplegables, carruseles).</li>
+        <li><b>Sistema de rejilla (Grid):</b> Utiliza clases como <code>container</code>, <code>row</code> y <code>col</code> para maquetar fácilmente.</li>
+        <li><b>Componentes reutilizables:</b> Incluye botones, tarjetas, alertas y barras de navegación prediseñadas.</li>
+      </ul>
+    </div>
+
+    <div class="seccion">
+      <h2>2. Ejemplos Básicos</h2>
+
+      <h3>Ejemplo 1: Botones Estilizados de Bootstrap</h3>
+      <p>Uso de clases prediseñadas para botones.</p>
+      <button type="button" class="btn btn-primary">Primario</button>
+      <button type="button" class="btn btn-success">Éxito</button>
+      <button type="button" class="btn btn-danger">Peligro</button>
+
+      <br><br>
+
+      <h3>Ejemplo 2: Alertas de Información</h3>
+      <p>Mensajes emergentes usando clases de alerta.</p>
+      <div class="alert alert-info" role="alert">
+        Esta es una alerta de información de Bootstrap.
+      </div>
+
+      <br>
+
+      <h3>Ejemplo 3: Sistema de Filas y Columnas (Grid)</h3>
+      <p>Diseño de columnas automáticas con la clase <code>col</code>.</p>
+      <div class="row text-center">
+        <div class="col bg-light p-3 border">Columna 1</div>
+        <div class="col bg-warning p-3 border">Columna 2</div>
+        <div class="col bg-light p-3 border">Columna 3</div>
+      </div>
+
+      <br><br>
+
+      <h3>Ejemplo 4: Tarjeta (Card)</h3>
+      <p>Componente de tarjeta para presentar contenido estructurado.</p>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Tarjeta Bootstrap</h5>
+          <p class="card-text">Ejemplo de una tarjeta sencilla creada con clases nativas de Bootstrap.</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+
+      <br><br>
+
+      <h3>Ejemplo 5: Inclusión de la CDN en Código</h3>
+      <p>Estructura básica para importar los recursos de Bootstrap mediante enlace CDN.</p>
+      <div class="p-3 bg-dark text-white rounded">
+        <code>&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"&gt;</code>
+      </div>
+    </div>
+
+    <div class="seccion">
+      <h2>3. Video Explicativo</h2>
+      <iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/T8-8lMjz_OQ" 
+  title="Reproductor de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLUJO NORMAL Y DISPLAY</title>
+  <link rel="stylesheet" href="css/practicas.css">
+</head>
+<body>
+
+  <a href="index.html">Regresar</a>
+
+  <center>
+    <h1>FLUJO NORMAL Y DISPLAY</h1>
+  </center>
+
+  <h1>Práctica 5: Flujo Normal y Display en CSS</h1>
+
+  <div class="seccion">
+    <h2>1. Teoría Básica</h2>
+    <p>El flujo normal es el orden en el que el navegador coloca los elementos en la página de arriba a abajo y de izquierda a derecha. La propiedad <b>display</b> modifica cómo se comportan estos elementos:</p>
+    <ul>
+      <li><b>display: block;</b> Ocupa todo el ancho disponible y fuerza un salto de línea (ej. div, p, h1).</li>
+      <li><b>display: inline;</b> Solo ocupa el espacio de su contenido y no acepta ancho ni alto fijados (ej. span, a, b).</li>
+      <li><b>display: inline-block;</b> Se alinea en la misma línea como un elemento en línea, pero permite cambiar su ancho, alto, márgenes y rellenos.</li>
+      <li><b>display: none;</b> Oculta completamente el elemento del flujo del documento sin dejar espacio reservado.</li>
+    </ul>
+  </div>
+
+  <div class="seccion">
+    <h2>2. Ejemplos Básicos</h2>
+
+    <h3>Ejemplo 1: Comportamiento por Defecto (Block)</h3>
+    <p>Los elementos de bloque ocupan todo el ancho y se colocan uno debajo del otro.</p>
+    
+    <div class="display-1">Elemento Bloque 1</div>
+    <div class="display-1">Elemento Bloque 2</div>
+
+    <br>
+
+    <h3>Ejemplo 2: Convertir a Inline</h3>
+    <p>Elementos de bloque convertidos a inline para que aparezcan en la misma línea.</p>
+    <br>
+    <div class="display-2">Bloque a Inline 1</div>
+    <div class="display-2">Bloque a Inline 2</div>
+
+    <br><br>
+
+    <h3>Ejemplo 3: Uso de Inline-Block</h3>
+    <p>Permite colocar elementos al lado de otros respetando ancho y alto personalizados.</p>
+    <div class="display-3">Inline-block 1</div>
+    <div class="display-3">Inline-block 2</div>
+
+    <br>
+
+    <h3>Ejemplo 4: Elemento Oculto con display: none</h3>
+    <p>El segundo cuadro está oculto mediante CSS y no ocupa espacio visual.</p>
+    <div class="display-3">Caja visible</div>
+    <div class="display-4">Caja oculta</div>
+    <div class="display-3">Otra caja visible</div>
+
+    <br>
+
+    <h3>Ejemplo 5: Convertir Enlace (Inline) a Bloque</h3>
+    <p>Un enlace con display: block para que funcione como un botón a todo lo ancho.</p>
+    <a href="#" class="display-5">Boton Enlace de Bloque</a>
+  </div>
+
+  <div class="seccion">
+    <h2>3. Video Explicativo</h2>
+    <iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/Iy_7t1vekkw" 
+  title="Reproductor de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+  </div>
+
+</body>
+</html>

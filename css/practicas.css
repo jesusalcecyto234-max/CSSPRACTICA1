@@ -1,0 +1,475 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+/* Se quitaron el fondo blanco y el borde gris */
+.seccion {
+  margin-bottom: 30px;
+}
+
+.caja-1 {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.caja-2 {
+  width: 200px;
+  padding: 20px;
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+
+.caja-3 {
+  width: 200px;
+  margin: 25px;
+  background-color: lightpink;
+  border: 1px solid black;
+}
+
+.caja-4 {
+  width: 200px;
+  padding: 15px;
+  border: 5px solid red;
+  box-sizing: border-box;
+  background-color: lightyellow;
+}
+
+.caja-5 {
+  width: 250px;
+  margin: 0 auto;
+  background-color: lightgray;
+  border: 2px solid blue;
+  text-align: center;
+  padding: 10px;
+}
+.borde-1 {
+  width: 250px;
+  padding: 10px;
+  border-style: dotted;
+  border-color: black;
+  border-width: 2px;
+}
+
+.borde-2 {
+  width: 250px;
+  padding: 10px;
+  border-style: dashed;
+  border-color: navy;
+  border-width: 2px;
+}
+
+.borde-3 {
+  width: 250px;
+  padding: 10px;
+  border: 4px solid green;
+}
+
+.borde-4 {
+  width: 250px;
+  padding: 10px;
+  border-top: 3px solid red;
+  border-left: 3px solid red;
+  background-color: #f0f0f0;
+}
+
+.borde-5 {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid purple;
+  border-radius: 15px;
+}
+
+.borde-6 {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid orange;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.fondo-1 {
+  width: 250px;
+  padding: 15px;
+  background-color: rgba(0, 123, 255, 0.4);
+  border: 1px solid #0056b3;
+}
+
+.fondo-2 {
+  width: 250px;
+  padding: 15px;
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+}
+
+.fondo-3 {
+  width: 250px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #000000;
+  background-image: url('img/planta.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+}
+
+.fondo-4 {
+  width: 250px;
+  height: 120px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-image: url('img/carro1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.fondo-5 {
+  width: 250px;
+  padding: 15px;
+  background-image: radial-gradient(circle, #6a11cb, #2575fc);
+  color: white;
+}
+.sombra-1 {
+  font-size: 22px;
+  color: #333;
+  text-shadow: 2px 2px 4px #aaa;
+}
+
+.sombra-2 {
+  width: 250px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+.sombra-3 {
+  width: 250px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0px 8px 15px rgba(0, 123, 255, 0.3);
+}
+
+.sombra-4 {
+  width: 250px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  box-shadow: inset 3px 3px 8px #888;
+}
+
+.sombra-5 {
+  font-size: 26px;
+  color: #007bff;
+  text-shadow: 1px 1px 0px #0056b3, 2px 2px 0px #003e80, 3px 3px 5px #aaa;
+}
+.display-1 {
+  display: block;
+  background-color: lightlightblue;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid blue;
+}
+
+.display-2 {
+  display: inline;
+  background-color: lightgreen;
+  padding: 10px;
+  border: 1px solid green;
+}
+
+.display-3 {
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  background-color: lightpink;
+  padding: 10px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.display-4 {
+  display: none;
+}
+
+.display-5 {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.pos-static {
+  position: static;
+  background-color: lightgray;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.pos-relative {
+  position: relative;
+  top: 15px;
+  left: 20px;
+  background-color: lightgreen;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid green;
+}
+
+.pos-padre {
+  position: relative;
+  width: 280px;
+  height: 120px;
+  background-color: #eee;
+  border: 2px solid #333;
+  padding: 10px;
+}
+
+.pos-absoluta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: lightpink;
+  padding: 8px;
+  border: 1px solid red;
+}
+
+.capa-1 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 120px;
+  padding: 10px;
+  background-color: yellow;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.capa-2 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 140px;
+  padding: 10px;
+  background-color: orange;
+  border: 1px solid red;
+  z-index: 2;
+}
+
+.pos-fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  gap: 10px;
+}
+
+.flex-item {
+  background-color: lightlightblue;
+  border: 1px solid blue;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.flex-ex1 {
+  flex-direction: row;
+}
+
+.flex-ex2 {
+  justify-content: center;
+}
+
+.flex-ex3 {
+  justify-content: space-between;
+}
+
+.flex-ex4 {
+  height: 90px;
+  align-items: center;
+}
+
+.flex-ex5 {
+  flex-direction: column;
+  width: 180px;
+}
+
+
+.grid-container {
+  display: grid;
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  border: 1px solid green;
+  padding: 15px;
+  text-align: center;
+}
+
+.grid-ex1 {
+  grid-template-columns: 100px 100px 100px;
+  gap: 5px;
+}
+
+.grid-ex2 {
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+}
+
+.grid-ex3 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.grid-ex4 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.item-ancho {
+  grid-column: span 2;
+  background-color: lightpink;
+  border-color: red;
+}
+
+.grid-ex5 {
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+/* Definición de Keyframes */
+@keyframes cambiarColor {
+  0% { background-color: lightlightblue; }
+  50% { background-color: lightpink; }
+  100% { background-color: lightlightblue; }
+}
+
+@keyframes moverDer {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(100px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes pulso {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes rotar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes desvanecer {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Clases de ejemplo */
+.anim-1 {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid black;
+  animation-name: cambiarColor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.anim-2 {
+  width: 150px;
+  padding: 10px;
+  background-color: lightgreen;
+  border: 1px solid green;
+  animation-name: moverDer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.anim-3 {
+  width: 150px;
+  padding: 10px;
+  background-color: lightyellow;
+  border: 1px solid orange;
+  text-align: center;
+  animation-name: pulso;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.anim-4 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: rotar;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.anim-5 {
+  width: 200px;
+  padding: 15px;
+  background-color: purple;
+  color: white;
+  animation-name: desvanecer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.alert-info {
+  color: #055160;
+  background-color: #cff4fc;
+  border-color: #b6effb;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
