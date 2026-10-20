@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANIMACIONES EN CSS</title>
+  <link rel="stylesheet" href="css/practicas.css">
+</head>
+<body>
+
+  <a href="index.html">Regresar</a>
+
+  <center>
+    <h1>ANIMACIONES EN CSS</h1>
+  </center>
+
+  <h1>Práctica 9: Animaciones en CSS</h1>
+
+  <div class="seccion">
+    <h2>1. Teoría Básica</h2>
+    <p>Las animaciones en CSS permiten cambiar gradualmente el estilo de un elemento de uno a otro. Se componen de dos partes clave:</p>
+    <ul>
+      <li><b>@keyframes:</b> Regla que define los fotogramas clave de la animación y los estilos en cada etapa (usando porcentajes o <code>from</code>/<code>to</code>).</li>
+      <li><b>animation-name:</b> Nombre de la regla <code>@keyframes</code> que se aplicará al elemento.</li>
+      <li><b>animation-duration:</b> Duración del ciclo de la animación (ej. 2s, 500ms).</li>
+      <li><b>animation-iteration-count:</b> Número de repeticiones (número o <code>infinite</code>).</li>
+      <li><b>animation-timing-function:</b> Controla la velocidad del cambio (ease, linear, ease-in-out).</li>
+    </ul>
+  </div>
+
+  <div class="seccion">
+    <h2>2. Ejemplos Básicos</h2>
+
+    <h3>Ejemplo 1: Cambio de Color</h3>
+    <p>Transición simple de color de fondo repetida infinitamente.</p>
+    <div class="anim-1">Cambio de color</div>
+
+    <br>
+
+    <h3>Ejemplo 2: Desplazamiento Horizontal</h3>
+    <p>Movimiento suave hacia la derecha mediante la propiedad <code>transform: translateX</code>.</p>
+    <div class="anim-2">Caja en movimiento</div>
+
+    <br>
+
+    <h3>Ejemplo 3: Transición de Escala (Zoom/Pulso)</h3>
+    <p>Aumento y reducción de tamaño utilizando <code>transform: scale</code>.</p>
+    <div class="anim-3">Efecto pulso</div>
+
+    <br>
+
+    <h3>Ejemplo 4: Rotación Continua</h3>
+    <p>Giro de 360 grados constante.</p>
+    <div class="anim-4">Giro 360°</div>
+
+    <br>
+
+    <h3>Ejemplo 5: Aparecer gradualmente (Fade In)</h3>
+    <p>Variación de opacidad de 0 a 1.</p>
+    <div class="anim-5">Aparición suave</div>
+  </div>
+
+  <div class="seccion">
+    <h2>3. Video Explicativo</h2>
+    <iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/yDEVG_uTlfs" 
+  title="Reproductor de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+  </div>
+
+</body>
+</html>

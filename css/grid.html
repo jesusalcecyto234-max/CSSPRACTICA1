@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRID EN CSS</title>
+  <link rel="stylesheet" href="css/practicas.css">
+</head>
+<body>
+
+  <a href="index.html">Regresar</a>
+
+  <center>
+    <h1>GRID EN CSS</h1>
+  </center>
+
+  <h1>Práctica 8: CSS Grid Layout</h1>
+
+  <div class="seccion">
+    <h2>1. Teoría Básica</h2>
+    <p><b>CSS Grid Layout</b> es un sistema de diseño bidimensional (filas y columnas al mismo tiempo) para crear retículas avanzadas. Sus propiedades principales son:</p>
+    <ul>
+      <li><b>display: grid;</b> Define un contenedor de tipo rejilla o retícula.</li>
+      <li><b>grid-template-columns:</b> Define la cantidad y ancho de las columnas (px, %, fr).</li>
+      <li><b>grid-template-rows:</b> Define la cantidad y alto de las filas.</li>
+      <li><b>gap:</b> Establece la separación o espacio entre celdas (filas y columnas).</li>
+      <li><b>grid-column / grid-row:</b> Permite expandir o posicionar una celda a lo largo de varias columnas o filas.</li>
+    </ul>
+  </div>
+
+  <div class="seccion">
+    <h2>2. Ejemplos Básicos</h2>
+
+    <h3>Ejemplo 1: Rejilla Simple de 3 Columnas</h3>
+    <p>Uso de <code>grid-template-columns</code> para definir tres columnas del mismo ancho.</p>
+    <div class="grid-container grid-ex1">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 2: Uso de Unidades Fraccionarias (fr) y Gap</h3>
+    <p>Columnas proporcionales con espacio (gap) entre ellas.</p>
+    <div class="grid-container grid-ex2">
+      <div class="grid-item">1fr</div>
+      <div class="grid-item">2fr</div>
+      <div class="grid-item">1fr</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 3: Función repeat()</h3>
+    <p>Crea 4 columnas iguales simplificando la sintaxis con <code>repeat()</code>.</p>
+    <div class="grid-container grid-ex3">
+      <div class="grid-item">A</div>
+      <div class="grid-item">B</div>
+      <div class="grid-item">C</div>
+      <div class="grid-item">D</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 4: Expandir Celdas (grid-column)</h3>
+    <p>La primera celda abarca dos columnas completas usando <code>span 2</code>.</p>
+    <div class="grid-container grid-ex4">
+      <div class="grid-item item-ancho">Ocupa 2 columnas</div>
+      <div class="grid-item">Normal</div>
+      <div class="grid-item">Normal</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 5: Estructura Básica de Página con Grid</h3>
+    <p>Retícula de 2 filas y 2 columnas simétrica.</p>
+    <div class="grid-container grid-ex5">
+      <div class="grid-item">Encabezado</div>
+      <div class="grid-item">Lateral</div>
+      <div class="grid-item">Contenido</div>
+      <div class="grid-item">Pie</div>
+    </div>
+  </div>
+
+  <div class="seccion">
+    <h2>3. Video Explicativo</h2>
+   <iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/ZPWHmX2EEiY" 
+  title="Reproductor de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+  </div>
+
+</body>
+</html>

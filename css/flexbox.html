@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLEXBOX EN CSS</title>
+  <link rel="stylesheet" href="css/practicas.css">
+</head>
+<body>
+
+  <a href="index.html">Regresar</a>
+
+  <center>
+    <h1>FLEXBOX EN CSS</h1>
+  </center>
+
+  <h1>Práctica 7: Flexbox en CSS</h1>
+
+  <div class="seccion">
+    <h2>1. Teoría Básica</h2>
+    <p>Flexbox (Flexible Box Layout) es un modelo de diseño unidimensional pensado para distribuir espacio y alinear elementos en filas o columnas de forma flexible. Propiedades clave:</p>
+    <ul>
+      <li><b>display: flex;</b> Activa el contenedor flexible.</li>
+      <li><b>flex-direction:</b> Define la dirección de los elementos (row, column, row-reverse, column-reverse).</li>
+      <li><b>justify-content:</b> Alinea los elementos en el eje principal (flex-start, center, flex-end, space-between, space-around).</li>
+      <li><b>align-items:</b> Alinea los elementos en el eje cruzado (stretch, center, flex-start, flex-end).</li>
+      <li><b>flex-wrap:</b> Controla si los elementos pasan a una nueva línea si no caben (nowrap, wrap).</li>
+    </ul>
+  </div>
+
+  <div class="seccion">
+    <h2>2. Ejemplos Básicos</h2>
+
+    <h3>Ejemplo 1: Contenedor Flex Básico (Fila)</h3>
+    <p>Elementos alineados horizontalmente uno al lado del otro.</p>
+    <div class="flex-container flex-ex1">
+      <div class="flex-item">Caja 1</div>
+      <div class="flex-item">Caja 2</div>
+      <div class="flex-item">Caja 3</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 2: Justify Content (Centrado)</h3>
+    <p>Uso de <code>justify-content: center</code> para centrar los elementos horizontalmente.</p>
+    <div class="flex-container flex-ex2">
+      <div class="flex-item">Caja 1</div>
+      <div class="flex-item">Caja 2</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 3: Espaciado con Space-Between</h3>
+    <p>Distribuye los elementos dejando el espacio máximo entre ellos.</p>
+    <div class="flex-container flex-ex3">
+      <div class="flex-item">Inicio</div>
+      <div class="flex-item">Centro</div>
+      <div class="flex-item">Fin</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 4: Alineación Vertical (Align-Items)</h3>
+    <p>Uso de <code>align-items: center</code> para centrar verticalmente en el eje cruzado.</p>
+    <div class="flex-container flex-ex4">
+      <div class="flex-item">Alto normal</div>
+      <div class="flex-item" style="padding: 25px 10px;">Más alto</div>
+    </div>
+
+    <br>
+
+    <h3>Ejemplo 5: Dirección en Columna (Flex-Direction)</h3>
+    <p>Alineación de elementos de forma vertical utilizando <code>flex-direction: column</code>.</p>
+    <div class="flex-container flex-ex5">
+      <div class="flex-item">Item 1</div>
+      <div class="flex-item">Item 2</div>
+    </div>
+  </div>
+
+  <div class="seccion">
+    <h2>3. Video Explicativo</h2>
+    <iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/C4tXYHGMXp0" 
+  title="Reproductor de YouTube" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
+  </div>
+
+</body>
+</html>
